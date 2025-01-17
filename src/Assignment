@@ -1,0 +1,35 @@
+School system
+
+we are going to repeat OOP and then I want to find a way to leverage the strengths of the different OOP concepts
+
+Login
+
+Show control comma with inheritance, poly, abstract with different user roles
+
+you enter username and password
+
+the person who logs in determines what kind of user object is created role in the user superclass and we need users in some kind of database with that role: from the method, based on the user, an admin object is returned, for example
+
+step 1:
+
+enable logging in as a user with the admin role USER, ADMIN and a method to log in
+
+USER:
+superclass
+username (email)
+password
+
+ADMIN:
+Should be able to do a lot
+create accounts
+move students
+remove students
+
+TEACHER:
+should be able to create courses add students to courses
+see list of all active courses send application to active course
+responsible teacher
+students String education
+method(){
+builds these attributes together to: FR241DB
+composition of: education, year, semester, course ID code (eg abbreviation) FR241DB

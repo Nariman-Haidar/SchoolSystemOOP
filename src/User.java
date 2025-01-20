@@ -1,13 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
-// Enum for Roles
-enum Role {
-    ADMIN, TEACHER, STUDENT
-}
-
-// Abstract Base Class
 abstract class User {
     protected String username;
     protected String password;
